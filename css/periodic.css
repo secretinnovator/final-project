@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin:0;
+    padding:0;
+    background-image: url(https://www-mslmb.niddk.nih.gov/zhang/images/andrew_uw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+    text-transform: capitalize;
+}
+.key
+{
+    max-width: 200px;
+    max-height: 200px;
+    padding-left: 400px;
+    position: absolute;
+    padding-top: 80px;
+}
+
+table   
+{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    padding: 10px;
+}
+ table,tr, td
+{
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: Times New Roman;
+    border-radius:10px;
+}
+tr
+{  
+    height: 50px;
+    position: relative;
+}
+tr,td
+{
+    color: rgb(255, 255, 255);
+    width: 200px;
+}
+td
+{
+    height: 80px;
+    font-size: 10px;
+}
+td:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.t1
+{
+    border: none;
+}
+table 
+{
+    border: none;
+}
+.c1
+{
+    border-color:  rgb(0, 43, 103);
+    background-image: linear-gradient(to bottom right,rgb(86, 179, 179),rgb(82, 74, 74),black);
+}
+.yellow
+{
+    border-color: rgb(221, 221, 61);
+    background-image: linear-gradient(to bottom right,rgb(221, 221, 61),rgb(82, 74, 74),black);
+}
+.orange
+{
+    border-color: orange;
+    background-image: linear-gradient(to bottom right,orange,rgb(82, 74, 74),black);
+}
+.blue
+{
+    background-image: linear-gradient(to bottom right,blue,rgb(82, 74, 74),black);
+    border-color: blue;
+}
+.violet
+{
+    background-image: linear-gradient(to bottom right,blueviolet,rgb(82, 74, 74),black);
+    border-color: blueviolet;
+}
+.lightblue
+{
+    background-image: linear-gradient(to bottom right, aquamarine,rgb(82, 74, 74),black);
+    border-color: aquamarine;
+}
+.pink
+{
+    background-image: linear-gradient(to bottom right,rgb(230, 45, 143),rgb(82, 74, 74),black);
+    border-color: rgb(230, 45, 143);
+}
+.gray
+{
+    background-image: linear-gradient(to bottom right,rgb(172, 170, 170),rgb(82, 74, 74),rgb(202, 197, 197));
+    border-color: rgb(172, 170, 170);
+}
+.black
+{
+    background-image: linear-gradient(to bottom right,rgb(75, 54, 51),rgb(82, 74, 74),black);
+    border-color: rgb(54, 52, 52);
+}
+.red
+{
+    background-image: linear-gradient(to bottom right,red,rgb(82, 74, 74),black);
+    border-color: red;
+}
+.green
+{
+    background-image: linear-gradient(to bottom right,rgb(13, 255, 13),rgb(82, 74, 74),black);
+    border-color: rgb(13, 255, 13);
+}
+
+.title {
+	text-align: center;
+	font-size: 3em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	position: relative;
+	font-family: century;
+	color: paleturquoise;
+}
+
+.navbar-container {
+	background-color: #eaeaea; /* Colorful background */
+	padding: 10px; /* Padding to create space around the text */
+}
+
+/* CSS for the navbar text */
+.navbar-text {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
